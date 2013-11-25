@@ -54,6 +54,39 @@ if(isset($_GET['page'])) {
 	<?php 
 		require 'content/' . $page . '.php';
 	?>
+	
+	<div class="footer-container">
+		<div class="container">
+			<div class="row">
+				<div class="footer-left col-lg-6">
+					<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
+					<h3>Board Certified Plastic Surgeon</h3>
+				</div>
+				<div class="footer-middle col-lg-3">
+					<p><a href="#"><img class="facebook-logo" src="assets/img/facebook-3x.png" alt="Connect with us on Facebook"></a></p>
+					
+					<address>
+						<p class="address-name">&copy;<b>Kai Morimoto</b> | Plastic Surgeon<br></p>
+						801 W 5th Ave, Ste 504<br>
+						Spokane, WA 99204<br>
+						<abbr title="Phone">P:</abbr> 509-838-2531
+					</address>
+				</div>
+				<div class="footer-right col-lg-3">
+					<h3>Pages</h3>
+					<ul>
+						<li>Home</li>
+						<li>About Us</li>
+						<li>Surgeries</li>
+						<li>Treatments</li>
+						<li>Products</li>
+						<li>Forms</li>
+						<li>Contact Us</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
