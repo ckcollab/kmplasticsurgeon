@@ -66,3 +66,28 @@
         font-style: normal;
     }
 }
+
+
+/***************************************************************************************************
+ * Champagne Limousines
+ ***************************************************************************************************/
+
+@font-face {
+    font-family: 'ChampagneLimousines';
+    src: url('../fonts/champagne-limousines.eot');
+    src: url('../fonts/champagne-limousines.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/champagne-limousines.woff') format('woff'),
+    url('../fonts/champagne-limousines.ttf') format('truetype'),
+    url('../fonts/champagne-limousines.svg#champagne__limousinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Raleway Regular';
+        src: url('../fonts/champagne-limousines.svg#champagne__limousinesregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
