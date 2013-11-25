@@ -1,0 +1,68 @@
+/***************************************************************************************************
+ * Saint Andrews
+ ***************************************************************************************************/
+
+@font-face {
+    font-family: 'SaintAndrewsRegular';
+    src: url('../fonts/saint-andrews-queen-regular.eot');
+    src: url('../fonts/saint-andrews-queen-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/saint-andrews-queen-regular.woff') format('woff'),
+         url('../fonts/saint-andrews-queen-regular.ttf') format('truetype'),
+         url('../fonts/saint-andrews-queen-regular.svg#jellyka_saint-andrews_queenRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Raleway Regular';
+        src: url('../fonts/saint-andrews-queen-regular.svg#jellyka_saint-andrews_queenRg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+
+/***************************************************************************************************
+ * Candara
+ ***************************************************************************************************/
+
+@font-face {
+    font-family: 'CandaraRegular';
+    src: url('../fonts/candara-regular.eot');
+    src: url('../fonts/candara-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/candara-regular.woff') format('woff'),
+    url('../fonts/candara-regular.ttf') format('truetype'),
+    url('../fonts/candara-regular.svg#CandaraRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Raleway Regular';
+        src: url('../fonts/candara-regular.svg#CandaraRegular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+@font-face {
+    font-family: 'CandaraBold';
+    src: url('../fonts/candarab-bold.eot');
+    src: url('../fonts/candarab-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/candarab-bold.woff') format('woff'),
+    url('../fonts/candarab-bold.ttf') format('truetype'),
+    url('../fonts/candarab-bold.svg#CandaraBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Raleway Regular';
+        src: url('../fonts/candarab-bold.svg#CandaraBold') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
