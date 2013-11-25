@@ -5,7 +5,7 @@ We're using less, I downloaded 'SimpleLESS' to auto-compile .less files into .cs
 
 ### How the site loads content
 Top of index.php:
-```
+```php
 <?php
 // Default page
 $page = 'home';
