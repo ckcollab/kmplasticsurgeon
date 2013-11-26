@@ -33,6 +33,10 @@ if(isset($_GET['page'])) {
 </head>
 
 <body>
+	<div class="phone-call-to-action">
+		<i class="glyphicon glyphicon-earphone"></i> (509) 838 - 2531
+	</div>
+
 	<div class="container">
 		<div class="row header">
 			<div class="col-lg-12">
@@ -73,7 +77,7 @@ if(isset($_GET['page'])) {
 		?>
 	</div>
 
-	<div class="footer-container navbar navbar-fixed-bottom">
+	<div class="footer-container navbar navbar-default navbar-static-bottom">
 		<div class="container">
 			<div class="row">
 				<div class="footer-left col-lg-6">
