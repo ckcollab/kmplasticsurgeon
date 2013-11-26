@@ -50,12 +50,30 @@ if(isset($_GET['page'])) {
 			</div>
 		</div>
 	</div>
-
-	<?php 
-		require 'content/' . $page . '.php';
-	?>
 	
-	<div class="footer-container">
+	<div class="container">
+		<div class="row header">
+			<div class="col-lg-12">
+				<img src="holder.js/190x105/vine/text:Plumeria">
+			</div>
+		</div>
+	</div>
+	
+	<div class="content-container">
+		<div class="container">
+			<div class="row header">
+				<div class="col-lg-12">
+					<img class="divider" src="assets/img/divider-3x.png">
+				</div>
+			</div>
+		</div>
+		
+		<?php 
+			require 'content/' . $page . '.php';
+		?>
+	</div>
+
+	<div class="footer-container navbar navbar-fixed-bottom">
 		<div class="container">
 			<div class="row">
 				<div class="footer-left col-lg-6">
@@ -91,5 +109,6 @@ if(isset($_GET['page'])) {
 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 	<script src="assets/js/bootstrap.js" type="text/javascript"></script>
+	<script src="assets/js/holder.js" type="text/javascript"></script>
 </body>
 </html>
