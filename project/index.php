@@ -33,9 +33,7 @@ if(isset($_GET['page'])) {
 </head>
 
 <body>
-	<div class="phone-call-to-action">
-		<i class="glyphicon glyphicon-earphone"></i> (509) 838 - 2531
-	</div>
+	<a class="phone-call-to-action" href="tel://1-509-838-2531"><i class="glyphicon glyphicon-earphone"></i> (509) 838 - 2531</a>
 
 	<div class="container">
 		<div class="row header">
@@ -83,7 +81,7 @@ if(isset($_GET['page'])) {
 						<p class="address-name">&copy;<b>Kai Morimoto</b> | Plastic Surgeon<br></p>
 						801 W 5th Ave, Ste 504<br>
 						Spokane, WA 99204<br>
-						<abbr title="Phone">P:</abbr> 509-838-2531
+						<a href="tel://1-509-838-2531"><abbr title="Phone">P:</abbr> 509-838-2531</a>
 					</address>
 				</div>
 				<div class="footer-right col-lg-3">
