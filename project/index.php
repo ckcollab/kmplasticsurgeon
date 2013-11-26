@@ -64,14 +64,6 @@ if(isset($_GET['page'])) {
 	</div>
 	
 	<div class="content-container">
-		<div class="container">
-			<div class="row header">
-				<div class="col-lg-12">
-					<img class="divider" src="assets/img/divider-3x.png">
-				</div>
-			</div>
-		</div>
-		
 		<?php 
 			require 'content/' . $page . '.php';
 		?>

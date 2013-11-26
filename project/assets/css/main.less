@@ -44,22 +44,26 @@ html, body {
 		font-size: 18px;
 		color: #4d4a47;
 
-		
 	
-		li {
-			float: left;
-			padding: 0 20px;
-		}
+		li { float: left; padding: 0 20px; }
 	}
 }
 
 .content-container {
-	background-color: #d8d4d1;
 	min-height:100%;
 	
-	.divider {
+	.consultation-container {
+		position: relative;
+		background-color: #d8d4d1;
+	}
+	
+	.divider{
+		position: absolute;
 		width: 1170px;
-		margin-top: -58px;
+		left: 20%;
+		
+		&:first-child { top: -23px; }
+		&:last-child { bottom: -23px; }
 	}
 }
 
