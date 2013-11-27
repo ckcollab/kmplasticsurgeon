@@ -51,12 +51,20 @@ if(isset($_GET['page'])) {
 				</ul>
 			</div>
 		</div>
-	</div>
-	
-	<div class="container">
-		<div class="row header">
+
+		<div class="row">
 			<div class="col-lg-12">
 				<img src="holder.js/190x105/vine/text:Plumeria">
+			</div>
+		</div>
+		
+		<div class="row picture-nav">
+			<div class="col-lg-12">
+				<img src="holder.js/140x180/vine/text:Face">
+				<img src="holder.js/140x180/vine/text:Breasts">
+				<img src="holder.js/140x180/vine/text:Body">
+				<img src="holder.js/140x180/vine/text:Mommy">
+				<img src="holder.js/140x180/vine/text:Male">
 			</div>
 		</div>
 	</div>
@@ -71,8 +79,15 @@ if(isset($_GET['page'])) {
 		<div class="container">
 			<div class="row">
 				<div class="footer-left col-lg-6">
-					<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
-					<h3>Board Certified Plastic Surgeon</h3>
+					<div class="images col-lg-4">
+						<img src="holder.js/80x60/vine/text:GoldStar"><br>
+						<img src="holder.js/130x100/vine/text:GoldStar">
+					</div>
+					
+					<div class="col-lg-8">
+						<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
+						<h3>Board Certified Plastic Surgeon</h3>
+					</div>
 				</div>
 				<div class="footer-middle col-lg-3">
 					<p><a href="#"><img class="facebook-logo" src="assets/img/facebook-3x.png" alt="Connect with us on Facebook"></a></p>
@@ -87,13 +102,13 @@ if(isset($_GET['page'])) {
 				<div class="footer-right col-lg-3">
 					<h3>Pages</h3>
 					<ul>
-						<li>Home</li>
-						<li>About Us</li>
-						<li>Surgeries</li>
-						<li>Treatments</li>
-						<li>Products</li>
-						<li>Forms</li>
-						<li>Contact Us</li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Surgeries</a></li>
+						<li><a href="#">Treatments</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Forms</a></li>
+						<li><a href="#">Contact Us</a></li>
 					</ul>
 				</div>
 			</div>
