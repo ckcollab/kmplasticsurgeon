@@ -54,19 +54,53 @@ if(isset($_GET['page'])) {
 
 		<div class="row">
 			<div class="col-lg-12">
-				<img src="holder.js/190x105/vine/text:Plumeria">
+				<div id="carousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+					</ol>
+					
+					<!--
+					<a class="left carousel-control" href="#carousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="right carousel-control" href="#carousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					-->
+					
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="assets/img/carousel/hands_on_face.jpg">
+							<div class="hand-to-face caption">
+								<p class="fancy">You deserve it</p>
+								<span class="km-btn">Book <p>Now</p></span>
+							</div>
+						</div>
+						<div class="item">
+							<img src="assets/img/carousel/face_on_hands.jpg">
+							<div class="face-to-hand caption">
+								<p class="fancy">The new you</p>
+								<span class="km-btn">Book <p>Now</p></span>
+							</div>
+						</div>
+					</div>
+					
+					<img class="plumeria" src="assets/img/plumeria.png" alt="Plumeria Flower" width="190">
+					<img class="rocks" src="assets/img/rocks.png" alt="Rocks and Flowers" width="175">
+				</div>
 			</div>
 		</div>
 		
 		<div class="row picture-nav">
 			<div class="col-lg-12">
-<<<<<<< HEAD
+				<!--
 				<img src="assets/img/face.png">
 				<img src="assets/img/breasts.png">
 				<img src="assets/img/body.png">
 				<img src="assets/img/mommy-makeover.png">
-				span.
-=======
+				-->
+				
 				<div class="big-button">
 					<div class="image-container">
 						<div class="image">
@@ -112,13 +146,6 @@ if(isset($_GET['page'])) {
 						male
 					</div>
 				</div>
-				<!--
-				<img src="holder.js/140x180/vine/text:Face">
-				<img src="holder.js/140x180/vine/text:Breasts">
-				<img src="holder.js/140x180/vine/text:Body">
-				<img src="holder.js/140x180/vine/text:Mommy">
-				<img src="holder.js/140x180/vine/text:Male">-->
->>>>>>> 9cb0a483776652d61ccb3f4283ec301253ff47a9
 			</div>
 		</div>
 	</div>
@@ -133,15 +160,28 @@ if(isset($_GET['page'])) {
 		<div class="container">
 			<div class="row">
 				<div class="footer-left col-lg-6">
-					<div class="images col-lg-4">
-						<img src="holder.js/80x60/vine/text:GoldStar"><br>
-						<img src="holder.js/130x100/vine/text:GoldStar">
+					<!--<div class="images col-lg-4">
+					
+						<a href="http://www.ama-assn.org/ama"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
+						<a href="http://www.facs.org/"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a><br>
+						<a href="http://www.plasticsurgery.org/"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a><br>
+						<a href="http://www.hawaii.edu/"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
 					</div>
 					
 					<div class="col-lg-8">
 						<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
 						<h3>Board Certified Plastic Surgeon</h3>
-					</div>
+					</div>-->
+					
+					<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
+					<h3>Board Certified Plastic Surgeon</h3>
+					
+					<a href="http://www.ama-assn.org/ama"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
+					<a href="http://www.facs.org/"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a>
+					<a href="http://www.plasticsurgery.org/"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
+					<a href="http://www.hawaii.edu/"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
+					
+
 				</div>
 				<div class="footer-middle col-lg-3">
 					<p><a href="#"><img class="facebook-logo" src="assets/img/facebook-3x.png" alt="Connect with us on Facebook"></a></p>

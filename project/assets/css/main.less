@@ -1,5 +1,5 @@
 html, body {
-	font-family: CandaraRegular, sans-serif;
+	font-family: Candara, sans-serif;
 	background-color: #e3e0d8;
 	height: 100%;
 }
@@ -9,7 +9,7 @@ h4 {
 	color: #504C48;
 }
 h1, h2, h3, h5, h6 { 
-	font-family: CandaraRegular, sans-serif; 
+	font-family: Candara, sans-serif; 
 }
 
 a:hover { text-decoration: none; }
@@ -41,7 +41,7 @@ a:hover { text-decoration: none; }
 		top: 4px;
 		color: #e4e1d9;
 		padding-left: 2px;
-		padding-right: 20px;
+		padding-right: 15px;
 	}
 }
 
@@ -56,7 +56,8 @@ a:hover { text-decoration: none; }
 	ul { 
 		padding-top: 33px;
 		list-style-type: none;
-		font-family: CandaraBold, sans-serif; 
+		//font-family: CandaraBold, sans-serif; 
+		font-family: Candara, sans-serif; 
 		font-size: 16px;
 
 		li { 
@@ -78,6 +79,52 @@ a:hover { text-decoration: none; }
 		border-bottom: 4px solid transparent; 
 		
 		&:hover { border-bottom: 4px solid #504C48; }
+	}
+}
+
+#carousel {
+	.plumeria { 
+		position: absolute;
+		left: -44px;
+		bottom: -36px;
+	}
+	
+	.rocks {
+		position: absolute;
+		right: -44px;
+		bottom: -36px;
+	}
+	
+	.caption {
+		.fancy {
+			font-family: SaintAndrewsRegular, serif;
+			font-size: 64px;
+			color: #807c77;
+		}
+	}
+	
+	.hand-to-face {
+		position: absolute;
+		top: 57px;
+		right: 41px;
+
+		
+		.km-btn {
+			margin-left: 60px;
+		}
+	}
+	
+	.face-to-hand {
+		position: absolute;
+		right: 13px; // this makes text centered, nothing else
+		left: 93px;
+		top: 33px;
+		
+		.km-btn {
+			margin-left: 133px;
+		}
+		
+		.fancy { font-size: 120px; }
 	}
 }
 
@@ -156,6 +203,9 @@ a:hover { text-decoration: none; }
 		background-color: #d8d4d1;
 		padding: 60px 0;
 		
+		h4 p { line-height: 0.8; }
+		p { line-height: 35px; }
+		
 		.consultation-form-container {
 			background-color: #fff; 
 			border-radius: 4px;
@@ -180,15 +230,22 @@ a:hover { text-decoration: none; }
 		.testimonials {
 			.row { margin-bottom: 40px; }
 		
-			.quote { width: 48px; }
+			.quote { width: 42px; float: right; }
 			.star { width: 20px; }
+		}
+		
+		.titles { 
+			margin-bottom: 30px;
 		}
 	}
 	
 	.divider{
 		position: absolute;
 		width: 1170px;
-		left: 20%;
+		margin: 0 auto 0 auto;
+		left: 0;
+		right: 0;
+		max-width: 100%;
 		
 		&:first-child { top: -23px; }
 		&:last-child { bottom: -23px; .flip-horizontal }
@@ -210,8 +267,12 @@ a:hover { text-decoration: none; }
 	}
 	
 	.footer-left {
-		.images { text-align: center; }
-		h3 { line-height: 16px;	margin-top: 0; }
+		text-align: center;
+		h3 { text-align: center; line-height: 16px;	margin-top: 20px; }
+		img {
+			padding: 0 10px;
+			margin-top: 20px;
+		}
 	}
 
 	
@@ -255,18 +316,27 @@ a:hover { text-decoration: none; }
 .km-btn {
 	background-color: #4c834e;
 	border: 0;
-	padding: 10px 30px;
+	padding: 8px 35px;
+	border-radius: 2px;
 	
+	font-family: CandaraBold, sans-serif;
 	font-size: 18px;
 	color: #fff;
 	
 	.first-letter-larger;
 	
-	.box-shadow(3px 3px 0, #d0d1d2);
+	.box-shadow(4px 4px 0, #d9d5d2);
 
 	&:hover {
 		background-color: #679769;
 	}
+	&:active {
+		.box-shadow(2px 2px 0, #d9d5d2);
+		background-color: #335835;
+		margin: -1px 0 0 1px;
+	}
+	
+	p { display: inline-block; .first-letter-larger; }
 }
 
 .box-shadow(@style, @c) when (iscolor(@c)) {

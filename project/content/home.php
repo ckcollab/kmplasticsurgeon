@@ -5,7 +5,7 @@
 		<div class="row">
 			<div class="col-lg-offset-1 col-lg-5">
 				<h2>Philosophy</h2>
-				<h4 class="enhancing">Enhancing <p>The</p> <p>Lives</p> <p>Of</p> <p>Her</p> <p>Patients</p></h4>
+				<h4>Enhancing <p>The</p> <p>Lives</p> <p>Of</p> <p>Her</p> <p>Patients</p></h4>
 				<p>Spokane Plastic Surgeon Kai Morimoto M.D., F.A.C.S. focuses on enhancing the lives of her patients. In respecting the unique individuality of each person, she is committed to helping them recognize and achieve their aesthetic goals. By personalizing a treatment plan, she is able to help take these goals a relaity and improve the patient's sense of overall well-being.</p>
 			</div>
 			
@@ -37,7 +37,7 @@
 </div>
 
 <div class="awards-and-testimonies container">
-	<div class="row">
+	<div class="row titles">
 		<div class="col-lg-offset-1 col-lg-5">
 			<h2>Awards</h2>
 		</div>
@@ -77,7 +77,7 @@
 				</div>
 				<div class="col-xs-10">
 					<h4>Wow, <p>I</p> <p>Couldn't</p> <p>Be</p> <p>Happier!</p></h4>
-					<p>I had a breast reduction and liposuction from bra line to knee area (both sides) Wow, I couldn't be happier! Dr Kai is truly a perfectionist! She listened to what I wanted and I could see immediately that the results are what I was hoping for. I am 3 weeks out and still a little swelling. Was painful (mostly due to lipo) but would definately recommend it.</p>
+					<p>I had a breast reduction and liposuction from bra line to knee area (both sides) Wow, I couldn't be happier! Dr Kai is truly a perfectionist! She listened to what I wanted and I could see immediately that the results are what I was hoping for. I am 3 weeks out and still a little swelling. Was painful (mostly due to lipo) but would definitely recommend it.</p>
 					<img class="star" src="assets/img/star.png" alt="Gold Star!">
 					<img class="star" src="assets/img/star.png" alt="Gold Star!">
 					<img class="star" src="assets/img/star.png" alt="Gold Star!">
