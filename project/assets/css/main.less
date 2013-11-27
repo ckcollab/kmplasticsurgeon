@@ -1,5 +1,5 @@
 html, body {
-	font-family: CandaraRegular, sans-serif;
+	font-family: Candara, sans-serif;
 	background-color: #e3e0d8;
 	height: 100%;
 }
@@ -9,7 +9,7 @@ h4 {
 	color: #504C48;
 }
 h1, h2, h3, h5, h6 { 
-	font-family: CandaraRegular, sans-serif; 
+	font-family: Candara, sans-serif; 
 }
 
 a:hover { text-decoration: none; }
@@ -56,7 +56,8 @@ a:hover { text-decoration: none; }
 	ul { 
 		padding-top: 33px;
 		list-style-type: none;
-		font-family: CandaraBold, sans-serif; 
+		//font-family: CandaraBold, sans-serif; 
+		font-family: Candara, sans-serif; 
 		font-size: 16px;
 
 		li { 
@@ -180,15 +181,19 @@ a:hover { text-decoration: none; }
 		.testimonials {
 			.row { margin-bottom: 40px; }
 		
-			.quote { width: 48px; }
+			.quote { width: 42px; float: right; }
 			.star { width: 20px; }
+		}
+		
+		.titles { 
+			margin-bottom: 30px;
 		}
 	}
 	
 	.divider{
 		position: absolute;
 		width: 1170px;
-		left: 20%;
+		margin: 0 auto 0 auto;
 		
 		&:first-child { top: -23px; }
 		&:last-child { bottom: -23px; .flip-horizontal }
@@ -255,14 +260,16 @@ a:hover { text-decoration: none; }
 .km-btn {
 	background-color: #4c834e;
 	border: 0;
-	padding: 10px 30px;
+	padding: 8px 35px;
+	border-radius: 2px;
 	
+	font-family: CandaraBold, sans-serif;
 	font-size: 18px;
 	color: #fff;
 	
 	.first-letter-larger;
 	
-	.box-shadow(3px 3px 0, #d0d1d2);
+	.box-shadow(4px 4px 0, #d9d5d2);
 
 	&:hover {
 		background-color: #679769;
