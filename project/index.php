@@ -41,13 +41,13 @@ if(isset($_GET['page'])) {
 				<img class="logo" src="assets/img/logo-full.png" alt="Kai Morimoto MD - Plastic Surgeon">
 				
 				<ul>
-					<li>Home</li>
-					<li>About <p>Us</p></li>
-					<li>Surgeries</li>
-					<li>Treatments</li>
-					<li>Products</li>
-					<li>Forms</li>
-					<li>Contact <p>Us</p></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About <p>Us</p></a></li>
+					<li><a href="#">Surgeries</a></li>
+					<li><a href="#">Treatments</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Forms</a></li>
+					<li><a href="#">Contact <p>Us</p></a></li>
 				</ul>
 			</div>
 		</div>
@@ -60,11 +60,65 @@ if(isset($_GET['page'])) {
 		
 		<div class="row picture-nav">
 			<div class="col-lg-12">
+<<<<<<< HEAD
 				<img src="assets/img/face.png">
 				<img src="assets/img/breasts.png">
 				<img src="assets/img/body.png">
 				<img src="assets/img/mommy-makeover.png">
 				span.
+=======
+				<div class="big-button">
+					<div class="image-container">
+						<div class="image">
+						</div>
+					</div>
+					<div class="text">
+						face
+					</div>
+				</div>
+				<div class="big-button">
+					<div class="image-container">
+						<div class="image">
+						</div>
+					</div>
+					<div class="text">
+						breasts
+					</div>
+				</div>
+				<div class="big-button">
+					<div class="image-container">
+						<div class="image">
+						</div>
+					</div>
+					<div class="text">
+						body
+					</div>
+				</div>
+				<div class="big-button">
+					<div class="image-container">
+						<div class="image">
+						</div>
+					</div>
+					<div class="text">
+						mommy
+					</div>
+				</div>
+				<div class="big-button">
+					<div class="image-container">
+						<div class="image">
+						</div>
+					</div>
+					<div class="text">
+						male
+					</div>
+				</div>
+				<!--
+				<img src="holder.js/140x180/vine/text:Face">
+				<img src="holder.js/140x180/vine/text:Breasts">
+				<img src="holder.js/140x180/vine/text:Body">
+				<img src="holder.js/140x180/vine/text:Mommy">
+				<img src="holder.js/140x180/vine/text:Male">-->
+>>>>>>> 9cb0a483776652d61ccb3f4283ec301253ff47a9
 			</div>
 		</div>
 	</div>
