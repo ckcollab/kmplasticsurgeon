@@ -6,7 +6,7 @@
 			<div class="col-lg-offset-1 col-lg-5">
 				
 				<h2>Philosophy</h2>
-				<h4>Compassionate Doctor Recognition</h4>
+				<h4>Compassionate <p>Doctor</p> <p>Recognition</p></h4>
 				<p>Spokane Plastic Surgeon Kai Morimoto M.D., F.A.C.S. focuses on enhancing the lives of her patients. In respecting the unique individuality of each person, she is committed to helping them recognize and achieve their aesthetic goals. By personalizing a treatment plan, she is able to help take these goals a relaity and improve the patient's sense of overall well-being.</p>
 			</div>
 			
@@ -52,20 +52,20 @@
 		<div class="col-lg-6">
 			<div class="row">
 				<div class="col-xs-2">
-					<img src="assets/img/compassionate-green.png" alt="Compassionate Doctor certification">
+					<img class="white-circle" src="assets/img/compassionate-green.png" alt="Compassionate Doctor certification">
 				</div>
 				<div class="col-xs-10">
-					<h4>Compassionate Doctor Recognition</h4>
+					<h4>Compassionate <p>Doctor</p> <p>Recognition</p></h4>
 					<p>Compassionate Doctor certification is granted to physicians who treat their patients with the utmost kindness. The honor is granted based on a physician's overall and bedside manner scores.</p>
 				</div>
 			</div>
 			
 			<div class="row">
 				<div class="col-xs-2">
-					<img src="assets/img/compassionate-green.png" alt="Compassionate Doctor certification">
+					<img class="white-circle" src="assets/img/compassionate-green.png" alt="Compassionate Doctor certification">
 				</div>
 				<div class="col-xs-10">
-					<h4>Compassionate Doctor Recognition</h4>
+					<h4>Compassionate <p>Doctor</p> <p>Recognition</p></h4>
 					<p>Compassionate Doctor certification is granted to physicians who treat their patients with the utmost kindness. The honor is granted based on a physician's overall and bedside manner scores.</p>
 				</div>
 			</div>
