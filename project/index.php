@@ -42,12 +42,12 @@ if(isset($_GET['page'])) {
 				
 				<ul>
 					<li>Home</li>
-					<li>About Us</li>
+					<li>About <p>Us</p></li>
 					<li>Surgeries</li>
 					<li>Treatments</li>
 					<li>Products</li>
 					<li>Forms</li>
-					<li>Contact Us</li>
+					<li>Contact <p>Us</p></li>
 				</ul>
 			</div>
 		</div>
@@ -103,12 +103,12 @@ if(isset($_GET['page'])) {
 					<h3>Pages</h3>
 					<ul>
 						<li><a href="#">Home</a></li>
-						<li><a href="#">About Us</a></li>
+						<li><a href="#">About <span>Us</span></a></li>
 						<li><a href="#">Surgeries</a></li>
 						<li><a href="#">Treatments</a></li>
 						<li><a href="#">Products</a></li>
 						<li><a href="#">Forms</a></li>
-						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Contact <span>Us</span></a></li>
 					</ul>
 				</div>
 			</div>

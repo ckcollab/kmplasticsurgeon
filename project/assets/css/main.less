@@ -1,11 +1,14 @@
 html, body {
-	font-family: CandaraRegular, Tahoma;
+	font-family: CandaraRegular, sans serif;
 	background-color: #e3e0d8;
 	height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h4 { 
 	font-family: CandaraBold, sans serif; 
+}
+h1, h2, h3, h5, h6 { 
+	font-family: CandaraRegular, sans serif; 
 }
 
 a:hover { text-decoration: none; }
@@ -21,7 +24,7 @@ a:hover { text-decoration: none; }
 	
 	background-color: #b8b4ae;
 	
-	font-family: CandaraBold, Tahoma;
+	font-family: CandaraBold, sans serif;
 	font-size: 18px;
 	color: #f6f6f5;
 	
@@ -48,16 +51,19 @@ a:hover { text-decoration: none; }
 	ul { 
 		padding-top: 33px;
 		list-style-type: none;
-		font-size: 14px;
+		font-size: 16px;
 		color: #4d4a47;
 
 
 		li { 
 			float: left; 
 			padding: 0 20px; 
-			.first-letter-larger; 
-			
+
 			&:first-child { margin-left: 23px; }
+			
+			.first-letter-larger;
+			
+			p { display: inline-block; .first-letter-larger; }
 		}
 	}
 }
@@ -77,9 +83,11 @@ a:hover { text-decoration: none; }
 		.first-letter-larger; 
 	}
 	h4 { 
+		display: inline-block;
 		font-size: 16px; 
 		.first-letter-larger; 
 		border-bottom: 1px solid #ccc;
+		p { display: inline-block; .first-letter-larger; margin: 0; }
 	}
 	
 	.consultation-container {
@@ -97,6 +105,12 @@ a:hover { text-decoration: none; }
 	
 	.awards-and-testimonies {
 		padding: 50px 0;
+		
+		.white-circle {
+			background-color: #fff;
+			border-radius: 100%;
+			padding: 12px;
+		}
 	}
 	
 	.divider{
@@ -163,7 +177,7 @@ a:hover { text-decoration: none; }
 
 .first-letter-larger {
 	text-transform: uppercase;
-	&:first-letter { font-size: 120%; }
+    &:first-letter { font-size: 120%; }
 }
 
 .km-btn {
