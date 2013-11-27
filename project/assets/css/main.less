@@ -1,15 +1,15 @@
 html, body {
-	font-family: CandaraRegular, sans serif;
+	font-family: CandaraRegular, sans-serif;
 	background-color: #e3e0d8;
 	height: 100%;
 }
 
 h4 { 
-	font-family: CandaraBold, sans serif; 
+	font-family: CandaraBold, sans-serif; 
 	color: #504C48;
 }
 h1, h2, h3, h5, h6 { 
-	font-family: CandaraRegular, sans serif; 
+	font-family: CandaraRegular, sans-serif; 
 }
 
 a:hover { text-decoration: none; }
@@ -25,7 +25,7 @@ a:hover { text-decoration: none; }
 	
 	background-color: #b8b4ae;
 	
-	font-family: CandaraBold, sans serif;
+	font-family: CandaraBold, sans-serif;
 	font-size: 18px;
 	color: #f6f6f5;
 	
@@ -52,7 +52,7 @@ a:hover { text-decoration: none; }
 	ul { 
 		padding-top: 33px;
 		list-style-type: none;
-		font-family: CandaraBold, sans serif; 
+		font-family: CandaraBold, sans-serif; 
 		font-size: 16px;
 		color: #504C48;
 
@@ -74,11 +74,42 @@ a:hover { text-decoration: none; }
 
 .picture-nav {
 	text-align: center;
-	margin: 40px 0;
+	margin: 80px 0;
 	
 	//img { margin: 20px; }
 	
-	.big-button { float: left; width: 20%; background-color: red; height: 100px; }
+	.big-button { 
+		float: left; 
+		width: 20%; 
+		text-align: center;
+		
+		.image {
+			display: inline-block;
+			width: 130px;
+			height: 130px;
+			background-color: #fff; 
+			border-radius: 100%;
+			
+			box-shadow: inset 0 0 80px hsl(30, 20%, 65%);
+		}
+		.text {
+			font-family: ChampagneLimousines, Arial;
+			font-size: 26px;
+			color: hsl(30, 7%, 60%);
+			letter-spacing: 5px;
+		}
+		
+		&:hover {
+			margin-top: -6px;
+			
+			.image { 
+				width: 140px; 
+				height: 140px; 
+				box-shadow: none;
+			}
+			.text { color: #140b08; }
+		}
+	}
 }
 
 .content-container {
