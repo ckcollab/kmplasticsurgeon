@@ -49,7 +49,7 @@
 	
 	<div class="row">
 		<div class="col-lg-6">
-			<div class="row">
+			<div class="row award">
 				<div class="col-xs-2">
 					<img class="white-circle" src="assets/img/compassionate-green.png" alt="Compassionate Doctor certification">
 				</div>
@@ -59,7 +59,7 @@
 				</div>
 			</div>
 			
-			<div class="row">
+			<div class="row award">
 				<div class="col-xs-2">
 					<img class="white-circle" src="assets/img/patients-choice-green.png" alt="Patients' Choice Award">
 				</div>

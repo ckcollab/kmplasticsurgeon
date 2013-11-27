@@ -41,13 +41,13 @@ if(isset($_GET['page'])) {
 				<img class="logo" src="assets/img/logo-full.png" alt="Kai Morimoto MD - Plastic Surgeon">
 				
 				<ul>
-					<li>Home</li>
-					<li>About <p>Us</p></li>
-					<li>Surgeries</li>
-					<li>Treatments</li>
-					<li>Products</li>
-					<li>Forms</li>
-					<li>Contact <p>Us</p></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About <p>Us</p></a></li>
+					<li><a href="#">Surgeries</a></li>
+					<li><a href="#">Treatments</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Forms</a></li>
+					<li><a href="#">Contact <p>Us</p></a></li>
 				</ul>
 			</div>
 		</div>
