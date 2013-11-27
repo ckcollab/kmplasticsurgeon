@@ -41,7 +41,7 @@ a:hover { text-decoration: none; }
 		top: 4px;
 		color: #e4e1d9;
 		padding-left: 2px;
-		padding-right: 20px;
+		padding-right: 15px;
 	}
 }
 
@@ -79,6 +79,52 @@ a:hover { text-decoration: none; }
 		border-bottom: 4px solid transparent; 
 		
 		&:hover { border-bottom: 4px solid #504C48; }
+	}
+}
+
+#carousel {
+	.plumeria { 
+		position: absolute;
+		left: -44px;
+		bottom: -36px;
+	}
+	
+	.rocks {
+		position: absolute;
+		right: -44px;
+		bottom: -36px;
+	}
+	
+	.caption {
+		
+		.fancy {
+			font-family: SaintAndrewsRegular, serif;
+			font-size: 64px;
+		}
+	}
+	
+	.hand-to-face {
+		position: absolute;
+		top: 57px;
+		right: 41px;
+
+		
+		.km-btn {
+			margin-left: 60px;
+		}
+	}
+	
+	.face-to-hand {
+		position: absolute;
+		right: 13px; // this makes text centered, nothing else
+		left: 93px;
+		top: 33px;
+		
+		.km-btn {
+			margin-left: 133px;
+		}
+		
+		.fancy { font-size: 120px; }
 	}
 }
 
@@ -218,8 +264,8 @@ a:hover { text-decoration: none; }
 	}
 	
 	.footer-left {
-		.images { text-align: center; }
-		h3 { line-height: 16px;	margin-top: 0; }
+		text-align: center;
+		h3 { text-align: center; line-height: 16px;	margin-top: 20px; }
 	}
 
 	
@@ -277,6 +323,13 @@ a:hover { text-decoration: none; }
 	&:hover {
 		background-color: #679769;
 	}
+	&:active {
+		.box-shadow(2px 2px 0, #d9d5d2);
+		background-color: #335835;
+		margin: -1px 0 0 1px;
+	}
+	
+	p { display: inline-block; .first-letter-larger; }
 }
 
 .box-shadow(@style, @c) when (iscolor(@c)) {
