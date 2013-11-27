@@ -61,35 +61,45 @@ if(isset($_GET['page'])) {
 		<div class="row picture-nav">
 			<div class="col-lg-12">
 				<div class="big-button">
-					<div class="image">
+					<div class="image-container">
+						<div class="image">
+						</div>
 					</div>
 					<div class="text">
 						face
 					</div>
 				</div>
 				<div class="big-button">
-					<div class="image">
+					<div class="image-container">
+						<div class="image">
+						</div>
 					</div>
 					<div class="text">
 						breasts
 					</div>
 				</div>
 				<div class="big-button">
-					<div class="image">
+					<div class="image-container">
+						<div class="image">
+						</div>
 					</div>
 					<div class="text">
 						body
 					</div>
 				</div>
 				<div class="big-button">
-					<div class="image">
+					<div class="image-container">
+						<div class="image">
+						</div>
 					</div>
 					<div class="text">
 						mommy
 					</div>
 				</div>
 				<div class="big-button">
-					<div class="image">
+					<div class="image-container">
+						<div class="image">
+						</div>
 					</div>
 					<div class="text">
 						male

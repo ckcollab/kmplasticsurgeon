@@ -15,6 +15,7 @@ h1, h2, h3, h5, h6 {
 a:hover { text-decoration: none; }
 
 .phone-call-to-action {
+	.transition(all);
 	position: absolute;
 	top: 15px;
 	right: 0;
@@ -32,6 +33,7 @@ a:hover { text-decoration: none; }
 	&:hover {
 		background-color: #4c834e;
 		color: #f6f6f5;
+		padding-right: 30px;
 	}
 	
 	.glyphicon {
@@ -74,25 +76,36 @@ a:hover { text-decoration: none; }
 
 .picture-nav {
 	text-align: center;
-	margin: 80px 0;
+	margin: 60px 0;
 	
 	//img { margin: 20px; }
 	
 	.big-button { 
 		float: left; 
-		width: 20%; 
+		width: 20%;
+		min-width: 150px; 
+		height: 200px;
 		text-align: center;
 		
-		.image {
-			display: inline-block;
-			width: 130px;
-			height: 130px;
-			background-color: #fff; 
-			border-radius: 100%;
+
+		.image-container {
+			height: 140px;
 			
-			box-shadow: inset 0 0 80px hsl(30, 20%, 65%);
+			.image {
+				.transition(width);
+				.transition(height;
+				.transition(all);
+				display: inline-block;
+				width: 130px;
+				height: 130px;
+				background-color: #fff; 
+				border-radius: 100%;
+				
+				box-shadow: inset 0 0 80px hsl(30, 20%, 65%);
+			}
 		}
 		.text {
+			.transition(color);
 			font-family: ChampagneLimousines, Arial;
 			font-size: 26px;
 			color: hsl(30, 7%, 60%);
@@ -100,8 +113,6 @@ a:hover { text-decoration: none; }
 		}
 		
 		&:hover {
-			margin-top: -6px;
-			
 			.image { 
 				width: 140px; 
 				height: 140px; 
@@ -258,4 +269,12 @@ a:hover { text-decoration: none; }
 }
 .box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
   .box-shadow(@style, rgba(0, 0, 0, @alpha));
+}
+
+.transition(@property) {
+   -webkit-transition: @property 0.2s ease-in;
+   -moz-transition: @property 0.2s ease-in;
+   -ms-transition: @property 0.2s ease-in;
+   -o-transition: @property 0.2s ease-in;
+   transition: @property 0.2s ease-in;
 }
