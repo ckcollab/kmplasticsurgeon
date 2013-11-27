@@ -60,15 +60,15 @@ if(isset($_GET['page'])) {
 		
 		<div class="row picture-nav">
 			<div class="col-lg-12">
-				<img src="holder.js/140x180/vine/text:Face">
-				<img src="holder.js/140x180/vine/text:Breasts">
-				<img src="holder.js/140x180/vine/text:Body">
-				<img src="holder.js/140x180/vine/text:Mommy">
-				<img src="holder.js/140x180/vine/text:Male">
+				<img src="assets/img/face.png">
+				<img src="assets/img/breasts.png">
+				<img src="assets/img/body.png">
+				<img src="assets/img/mommy-makeover.png">
+				span.
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="content-container">
 		<?php 
 			require 'content/' . $page . '.php';
