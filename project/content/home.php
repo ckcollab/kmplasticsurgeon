@@ -62,17 +62,31 @@
 			
 			<div class="row">
 				<div class="col-xs-2">
-					<img class="white-circle" src="assets/img/compassionate-green.png" alt="Compassionate Doctor certification">
+					<img class="white-circle" src="assets/img/patients-choice-green.png" alt="Patients' Choice Award">
 				</div>
 				<div class="col-xs-10">
-					<h4>Compassionate <p>Doctor</p> <p>Recognition</p></h4>
-					<p>Compassionate Doctor certification is granted to physicians who treat their patients with the utmost kindness. The honor is granted based on a physician's overall and bedside manner scores.</p>
+					<h4>Patients' <p>Choice</p> <p>Award</p></h4>
+					<p>Patients' Choice recognition reflects the difference a particular physician has made in the lives of his/her patients. The honor is bestowed to physicians who have received near perfect scores, as voted by patients.</p>
 				</div>
 			</div>
 		</div>
 		
-		<div class="col-lg-6">
-			<h2></h2>
+		<div class="col-lg-1">
+			asdfasdf
+		</div>
+		
+		<div class="col-lg-5">
+			<h4>Wow, <p>I</p> <p>Couldn't</p> <p>Be</p> <p>Happier!</p></h4>
+			<p>I had a breast reduction and liposuction from bra line to knee area (both sides) Wow, I couldn't be happier! Dr Kai is truly a perfectionist! She listened to what I wanted and I could see immediately that the results are what I was hoping for. I am 3 weeks out and still a little swelling. Was painful (mostly due to lipo) but would definately recommend it.</p>
+		
+			<h4>Best <p>doctor</p> <p>I’ve</p> <p>come</p> <p>in</p> <p>contact</p> <p>with</p></h4>
+			<p>From our ER visit to the follow up appointments in her office, Dr. Morimoto has been one of the best doctors I have ever come in contact with. Thorough in every detail of care. Highly recommended.</p>
+			
+			<h4>Her <p>knowledge</p> <p>is</p> <p>over</p> <p>the</p> <p>top</p></h4>
+			<p>My experience with Dr. Morimoto was excellent.  Her professionalism and knowledge is over the top and deaconess hospital was great.  Thank you.</p>
+			
+			<h4>A <p>Helping</p> <p>Hand</p></h4>
+			<p>I thought I’d extend a thank you.... You put my husband’s hand back together after a bad car accident on New Years’ Day some years ago. The hand has only minimal scarring, despite 54 stitches, and he is able to play guitar again, something we weren't sure was going to happen. I remember your work very vividly that day as you performed the surgery in the ED due to lack of an available OR and I was able to watch. So thank you for salvaging his hand!</p>
 		</div>
 	</div>
 </div>
