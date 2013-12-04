@@ -391,3 +391,24 @@ a:hover { text-decoration: none; }
    -o-transition: @property 0.1s ease-out;
    transition: @property 0.1s ease-out;
 }
+
+.transition_properties(...) {
+    @duration: 0.2s;
+    -webkit-transition-property: @arguments;
+    -moz-transition-property: @arguments;
+    -ms-transition-property: @arguments;
+    -o-transition-property: @arguments;
+    transition-property: @arguments;
+
+    -webkit-transition-duration: @duration;
+    -moz-transition-duration: @duration;
+    -ms-transition-duration: @duration;
+    -o-transition-duration: @duration;
+    transition-duration: @duration;
+    
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0, 1);
+    -moz-transition-timing-function: cubic-bezier(0.2, 1, 0, 1);
+    -ms-transition-timing-function: cubic-bezier(0.2, 1, 0, 1);
+    -o-transition-timing-function: cubic-bezier(0.2, 1, 0, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0, 1);
+}
