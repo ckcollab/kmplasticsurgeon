@@ -5,7 +5,12 @@ $page = 'home';
 // Pages
 $pages = array(
 	'home', 
-	'contact'
+	'about_us',
+	'surgeries',
+	'treatments',
+	'products',
+	'forms',
+	'contact_us'
 );
 
 if(isset($_GET['page'])) {
@@ -17,7 +22,7 @@ if(isset($_GET['page'])) {
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app="km_app">
 <head>
     <meta charset="utf-8" />
 
@@ -29,10 +34,10 @@ if(isset($_GET['page'])) {
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 
-    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" />
 </head>
 
-<body>
+<body ng-controller="KMController">
 	<a class="phone-call-to-action" href="tel://1-509-838-2531"><i class="glyphicon glyphicon-earphone"></i> (509) 838 - 2531</a>
 
 	<div class="container">
@@ -41,121 +46,14 @@ if(isset($_GET['page'])) {
 				<img class="logo" src="assets/img/logo-full.png" alt="Kai Morimoto MD - Plastic Surgeon">
 				
 				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About <p>Us</p></a></li>
+					<li><a href="index.php?page=home">Home</a></li>
+					<li><a href="index.php?page=about_us">About <p>Us</p></a></li>
 					<li><a href="#">Surgeries</a></li>
-					<li><a href="#">Treatments</a></li>
+					<li><a href="index.php?page=treatments">Treatments</a></li>
 					<li><a href="#">Products</a></li>
 					<li><a href="#">Forms</a></li>
-					<li><a href="#">Contact <p>Us</p></a></li>
+					<li><a href="index.php?page=contact_us">Contact <p>Us</p></a></li>
 				</ul>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-lg-12">
-				<div id="carousel" class="carousel slide" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#carousel" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel" data-slide-to="1"></li>
-					</ol>
-					
-					<!--
-					<a class="left carousel-control" href="#carousel" data-slide="prev">
-						<span class="glyphicon glyphicon-chevron-left"></span>
-					</a>
-					<a class="right carousel-control" href="#carousel" data-slide="next">
-						<span class="glyphicon glyphicon-chevron-right"></span>
-					</a>
-					-->
-					
-					<div class="carousel-inner">
-						<div class="item active">
-							<img src="assets/img/carousel/hands_on_face.jpg">
-							<div class="hand-to-face caption">
-								<p class="fancy">You deserve it</p>
-								<span class="km-btn">Book <p>Now</p></span>
-							</div>
-						</div>
-						<div class="item">
-							<img src="assets/img/carousel/face_on_hands.jpg">
-							<div class="face-to-hand caption">
-								<p class="fancy">The new you</p>
-								<span class="km-btn">Book <p>Now</p></span>
-							</div>
-						</div>
-					</div>
-					
-					<img class="plumeria" src="assets/img/plumeria.png" alt="Plumeria Flower" width="190">
-					<img class="rocks" src="assets/img/rocks.png" alt="Rocks and Flowers" width="175">
-				</div>
-			</div>
-		</div>
-		
-		<div class="row picture-nav">
-			<div class="col-lg-12">
-				<!--
-				<img src="assets/img/face.png">
-				<img src="assets/img/breasts.png">
-				<img src="assets/img/body.png">
-				<img src="assets/img/mommy-makeover.png">
-				-->
-				
-				<div class="big-button">
-					<div class="image-container">
-						<div class="image">
-							<img class="sepia" src="assets/img/big-nav-buttons/face-sepia.png" alt="Face">
-							<img class="normal" src="assets/img/big-nav-buttons/face.png" alt="Face">
-						</div>
-					</div>
-					<div class="text">
-						face
-					</div>
-				</div>
-				<div class="big-button">
-					<div class="image-container">
-						<div class="image">
-							<img class="sepia" src="assets/img/big-nav-buttons/breasts-sepia.png" alt="Breasts">
-							<img class="normal" src="assets/img/big-nav-buttons/breasts.png" alt="Breasts">
-						</div>
-					</div>
-					<div class="text">
-						breasts
-					</div>
-				</div>
-				<div class="big-button">
-					<div class="image-container">
-						<div class="image">
-							<img class="sepia" src="assets/img/big-nav-buttons/body-sepia.png" alt="Body">
-							<img class="normal" src="assets/img/big-nav-buttons/body.png" alt="Body">
-						</div>
-					</div>
-					<div class="text">
-						body
-					</div>
-				</div>
-				<div class="big-button">
-					<div class="image-container">
-						<div class="image">
-							<img class="sepia" src="assets/img/big-nav-buttons/mommy-makeover-sepia.png" alt="Mommy Makeover">
-							<img class="normal" src="assets/img/big-nav-buttons/mommy-makeover.png" alt="Mommy Makeover">
-						</div>
-					</div>
-					<div class="text">
-						mommy
-					</div>
-				</div>
-				<div class="big-button">
-					<div class="image-container">
-						<div class="image">
-							<img class="sepia" src="assets/img/big-nav-buttons/male-sepia.png" alt="Male">
-							<img class="normal" src="assets/img/big-nav-buttons/male.png" alt="Male">
-						</div>
-					</div>
-					<div class="text">
-						male
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -198,8 +96,8 @@ if(isset($_GET['page'])) {
 					
 					<address>
 						<p class="address-name">&copy;<b>Kai Morimoto</b> | Plastic Surgeon<br></p>
-						801 W 5th Ave, Ste 504<br>
-						Spokane, WA 99204<br>
+						12615 E Mission Ave, Suite 105<br>
+						Spokane Valley, WA 99216<br>
 						<a href="tel://1-509-838-2531"><abbr title="Phone">P:</abbr> 509-838-2531</a>
 					</address>
 				</div>
@@ -221,6 +119,8 @@ if(isset($_GET['page'])) {
 
 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+	<script src="assets/js/km.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap.js" type="text/javascript"></script>
 	<script src="assets/js/holder.js" type="text/javascript"></script>
 </body>

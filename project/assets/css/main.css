@@ -264,6 +264,14 @@ a:hover {
 }
 .content-container {
   min-height: 100%;
+  /*
+     * Home page
+     */
+
+  /*
+     * About us
+     */
+
 }
 .content-container h2 {
   color: #b1aaa4;
@@ -344,6 +352,12 @@ a:hover {
 }
 .content-container .awards-and-testimonies .titles {
   margin-bottom: 30px;
+}
+.content-container .about-us-container .logo {
+  float: left;
+  margin: 0 20px 20px 0;
+  border: 3px solid rgba(76, 131, 78, 0.55);
+  border-radius: 3px;
 }
 .content-container .divider {
   position: absolute;
@@ -462,3 +476,10 @@ a:hover {
 /************************************************************************
 * Mixins
 *************************************************************************/
+/************************************************************************
+* Utilities
+*************************************************************************/
+.needed {
+  color: red;
+  font-weight: bold;
+}
