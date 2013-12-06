@@ -22,7 +22,7 @@ if(isset($_GET['page'])) {
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="en" ng-app>
 <head>
     <meta charset="utf-8" />
 
@@ -37,9 +37,11 @@ if(isset($_GET['page'])) {
     <link rel="shortcut icon" href="assets/img/favicon.ico" />
 </head>
 
-<body>
+<body ng-controller="KMController">
 	<a class="phone-call-to-action" href="tel://1-509-838-2531"><i class="glyphicon glyphicon-earphone"></i> (509) 838 - 2531</a>
 
+	{{ test }}
+	
 	<div class="container">
 		<div class="row header">
 			<div class="col-lg-12">
@@ -49,7 +51,7 @@ if(isset($_GET['page'])) {
 					<li><a href="index.php?page=home">Home</a></li>
 					<li><a href="index.php?page=about_us">About <p>Us</p></a></li>
 					<li><a href="#">Surgeries</a></li>
-					<li><a href="#">Treatments</a></li>
+					<li><a href="index.php?page=treatments">Treatments</a></li>
 					<li><a href="#">Products</a></li>
 					<li><a href="#">Forms</a></li>
 					<li><a href="index.php?page=contact_us">Contact <p>Us</p></a></li>
@@ -119,6 +121,8 @@ if(isset($_GET['page'])) {
 
 
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+	<script src="assets/js/km.js" type="text/javascript"></script>
 	<script src="assets/js/bootstrap.js" type="text/javascript"></script>
 	<script src="assets/js/holder.js" type="text/javascript"></script>
 </body>
