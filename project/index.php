@@ -22,7 +22,7 @@ if(isset($_GET['page'])) {
 ?>
 
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="km_app">
 <head>
     <meta charset="utf-8" />
 
@@ -40,8 +40,6 @@ if(isset($_GET['page'])) {
 <body ng-controller="KMController">
 	<a class="phone-call-to-action" href="tel://1-509-838-2531"><i class="glyphicon glyphicon-earphone"></i> (509) 838 - 2531</a>
 
-	{{ test }}
-	
 	<div class="container">
 		<div class="row header">
 			<div class="col-lg-12">
