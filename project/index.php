@@ -48,8 +48,8 @@ if(isset($_GET['page'])) {
 					<li><a href="index.php?page=home">Home</a></li>
 					<li><a href="index.php?page=about_us">About <p>Us</p></a></li>
 					<li><a href="index.php?page=procedures">Procedures</a></li>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Forms</a></li>
+					<li><a href="index.php?page=products">Products</a></li>
+					<li><a href="index.php?page=forms">Forms</a></li>
 					<li><a href="index.php?page=contact_us">Contact <p>Us</p></a></li>
 				</ul>
 			</div>
@@ -94,6 +94,7 @@ if(isset($_GET['page'])) {
 					
 					<address>
 						<p class="address-name">&copy;<b>Kai Morimoto</b> | Plastic Surgeon<br></p>
+						Medicus Professional Center<br>
 						12615 E Mission Ave, Suite 105<br>
 						Spokane Valley, WA 99216<br>
 						<a href="tel://1-509-315-4415"><abbr title="Phone">P:</abbr> 509-315-4415</a>
