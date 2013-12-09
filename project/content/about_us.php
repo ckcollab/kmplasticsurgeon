@@ -46,7 +46,7 @@
 				Medicus Professional Center<br>
 				12615 E Mission Ave, Suite 105<br>
 				Spokane Valley, WA 99216<br>
-				<a href="tel://1-509-838-2531"><abbr title="Phone">P:</abbr> 509-838-2531</a>
+				<a href="tel://1-509-315-4415"><abbr title="Phone">P:</abbr> 509-315-4415</a>
 			</address>
 			
 			<span class="needed">I need email address</span><br>

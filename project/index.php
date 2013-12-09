@@ -6,8 +6,7 @@ $page = 'home';
 $pages = array(
 	'home', 
 	'about_us',
-	'surgeries',
-	'treatments',
+	'procedures',
 	'products',
 	'forms',
 	'contact_us'
@@ -38,7 +37,7 @@ if(isset($_GET['page'])) {
 </head>
 
 <body ng-controller="KMController">
-	<a class="phone-call-to-action" href="tel://1-509-838-2531"><i class="glyphicon glyphicon-earphone"></i> (509) 838 - 2531</a>
+	<a class="phone-call-to-action" href="tel://1-509-315-4415"><i class="glyphicon glyphicon-earphone"></i> (509) 315 - 4415</a>
 
 	<div class="container">
 		<div class="row header">
@@ -48,8 +47,7 @@ if(isset($_GET['page'])) {
 				<ul>
 					<li><a href="index.php?page=home">Home</a></li>
 					<li><a href="index.php?page=about_us">About <p>Us</p></a></li>
-					<li><a href="#">Surgeries</a></li>
-					<li><a href="index.php?page=treatments">Treatments</a></li>
+					<li><a href="index.php?page=procedures">Procedures</a></li>
 					<li><a href="#">Products</a></li>
 					<li><a href="#">Forms</a></li>
 					<li><a href="index.php?page=contact_us">Contact <p>Us</p></a></li>
@@ -98,7 +96,7 @@ if(isset($_GET['page'])) {
 						<p class="address-name">&copy;<b>Kai Morimoto</b> | Plastic Surgeon<br></p>
 						12615 E Mission Ave, Suite 105<br>
 						Spokane Valley, WA 99216<br>
-						<a href="tel://1-509-838-2531"><abbr title="Phone">P:</abbr> 509-838-2531</a>
+						<a href="tel://1-509-315-4415"><abbr title="Phone">P:</abbr> 509-315-4415</a>
 					</address>
 				</div>
 				<div class="footer-right col-lg-3">
