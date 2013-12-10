@@ -28,7 +28,8 @@ if(isset($_GET['page'])) {
     <title>Kai Morimoto - Plastic Surgeon Spokane, WA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
-	
+
+	<link href="assets/css/angular.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/fonts.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="assets/css/main.css" rel="stylesheet" type="text/css" />
@@ -66,19 +67,6 @@ if(isset($_GET['page'])) {
 		<div class="container">
 			<div class="row">
 				<div class="footer-left col-lg-6">
-					<!--<div class="images col-lg-4">
-					
-						<a href="http://www.ama-assn.org/ama"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
-						<a href="http://www.facs.org/"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a><br>
-						<a href="http://www.plasticsurgery.org/"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a><br>
-						<a href="http://www.hawaii.edu/"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
-					</div>
-					
-					<div class="col-lg-8">
-						<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
-						<h3>Board Certified Plastic Surgeon</h3>
-					</div>-->
-					
 					<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
 					<h3>Board Certified Plastic Surgeon</h3>
 					
@@ -86,9 +74,7 @@ if(isset($_GET['page'])) {
 					<a href="http://www.facs.org/"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a>
 					<a href="http://www.plasticsurgery.org/"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
 					<a href="http://www.hawaii.edu/"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
-					
-
-				</div>
+		        </div>
 				<div class="footer-middle col-lg-3">
 					<p><a href="#"><img class="facebook-logo" src="assets/img/facebook-3x.png" alt="Connect with us on Facebook"></a></p>
 					

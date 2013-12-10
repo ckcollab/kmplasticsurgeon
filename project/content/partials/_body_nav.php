@@ -1,15 +1,15 @@
 <div class="container">
 	<div class="row picture-nav">
 		<div class="col-lg-12">
-			<!--
-			<img src="assets/img/face.png">
-			<img src="assets/img/breasts.png">
-			<img src="assets/img/body.png">
-			<img src="assets/img/mommy-makeover.png">
-			-->
-			
 			<div class="big-button">
-			    <a href="index.php?page=procedures">
+
+			    <a
+			        <?php if($page != 'procedures'): ?>
+			            href="index.php?page=procedures&category=face"
+			        <?php else: ?>
+			            ng-click="show_procedures_for = 'face'"
+			        <?php endif; ?>
+			    >
                     <div class="image-container">
                         <div class="image">
                             <img class="sepia" src="assets/img/big-nav-buttons/face-sepia.png" alt="Face">
@@ -23,7 +23,13 @@
 			</div>
 
 			<div class="big-button">
-			    <a href="index.php?page=procedures">
+			    <a
+			        <?php if($page != 'procedures'): ?>
+			            href="index.php?page=procedures&category=breasts"
+			        <?php else: ?>
+			            ng-click="show_procedures_for = 'breasts'"
+			        <?php endif; ?>
+			    >
                     <div class="image-container">
                         <div class="image">
                             <img class="sepia" src="assets/img/big-nav-buttons/breasts-sepia.png" alt="Breasts">
@@ -37,7 +43,13 @@
 			</div>
 
 			<div class="big-button">
-			    <a href="index.php?page=procedures">
+			    <a
+			        <?php if($page != 'procedures'): ?>
+			            href="index.php?page=procedures&category=body"
+			        <?php else: ?>
+			            ng-click="show_procedures_for = 'body'"
+			        <?php endif; ?>
+			    >
                     <div class="image-container">
                         <div class="image">
                             <img class="sepia" src="assets/img/big-nav-buttons/body-sepia.png" alt="Body">
@@ -51,7 +63,13 @@
 			</div>
 
 			<div class="big-button">
-			    <a href="index.php?page=procedures">
+			    <a
+			        <?php if($page != 'procedures'): ?>
+			            href="index.php?page=procedures&category=mommy"
+			        <?php else: ?>
+			            ng-click="show_procedures_for = 'mommy'"
+			        <?php endif; ?>
+			    >
                     <div class="image-container">
                         <div class="image">
                             <img class="sepia" src="assets/img/big-nav-buttons/mommy-makeover-sepia.png" alt="Mommy Makeover">
@@ -65,7 +83,13 @@
 			</div>
 
 			<div class="big-button">
-			    <a href="index.php?page=procedures">
+			    <a
+			        <?php if($page != 'procedures'): ?>
+			            href="index.php?page=procedures&category=male"
+			        <?php else: ?>
+			            ng-click="show_procedures_for = 'male'"
+			        <?php endif; ?>
+			    >
                     <div class="image-container">
                         <div class="image">
                             <img class="sepia" src="assets/img/big-nav-buttons/male-sepia.png" alt="Male">

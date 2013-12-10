@@ -207,7 +207,6 @@ a:hover { text-decoration: none; }
 }
 
 .content-container {
-
     min-height:100%;
 
     h2 {
@@ -295,8 +294,20 @@ a:hover { text-decoration: none; }
      * Products
      */
     .products-container {
-
+        .row { padding: 40px 0; }
+        h1 { margin-top: 0; }
         img { width: 212px; float: left; margin: 0 20px 20px 0; }
+    }
+
+    /*
+     * Procedures
+     */
+    .procedures-container {
+        .toc_link {
+            display: block;
+            font-size: 12px;
+            margin-top: 3px;
+        }
     }
 
     /*
@@ -315,6 +326,25 @@ a:hover { text-decoration: none; }
     }
 }
 
+/*
+ * Procedure table of contents
+ */
+.table_of_contents_wrapper {
+    position: relative;
+    margin: 80px 0;
+    padding: 60px 20px;
+    font-size: 18px;
+    background-color: rgb(216, 212, 209);
+    box-shadow: inset 0 1px 2px rgb(187, 187, 187), inset 0 -1px 2px rgb(187, 187, 187), 0 1px rgb(243, 239, 231), 0 -1px rgb(182, 171, 150);
+
+    .table_of_contents {
+
+    }
+}
+
+/*
+ * Footer
+ */
 .footer-container {
     padding: 20px 0;
 
