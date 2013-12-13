@@ -505,6 +505,7 @@ a:hover {
   background-color: #FFF;
   border-radius: 100%;
   padding: 12px;
+  float: right;
 }
 .content-container .awards-and-testimonies .award {
   margin-bottom: 80px;
