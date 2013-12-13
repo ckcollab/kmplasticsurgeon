@@ -109,22 +109,67 @@ a:hover {
   border-bottom: 4px solid #504C48;
 }
 #carousel {
-  border: 3px solid rgba(0, 0, 0, 0.05);
-  border-radius: 3px;
+  box-shadow: -1px -1px 2px #cccccc, 1px -1px 2px #cccccc;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
 }
+@media (max-width: 768px) {
+  #carousel {
+    display: none;
+  }
+}
+#carousel .carousel-inner {
+  z-index: 2;
+}
 #carousel .plumeria {
   position: absolute;
-  left: -44px;
-  bottom: -36px;
+  width: 190px;
+  bottom: 0;
+  left: 0;
+  margin-left: -44px;
+  margin-bottom: -36px;
+  z-index: 3;
+}
+@media (max-width: 992px) {
+  #carousel .plumeria {
+    width: 143px;
+    margin-bottom: -28px;
+  }
 }
 #carousel .rocks {
   position: absolute;
-  right: -44px;
-  bottom: -36px;
+  width: 175px;
+  right: 0;
+  bottom: 0;
+  margin-right: -44px;
+  margin-bottom: -36px;
+  z-index: 3;
+}
+@media (max-width: 992px) {
+  #carousel .rocks {
+    width: 131px;
+    margin-bottom: -28px;
+  }
+}
+#carousel .shadow {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: -18px;
+  opacity: 0.2;
+  z-index: 1;
+}
+@media (max-width: 1200px) {
+  #carousel .shadow {
+    margin-bottom: -17px;
+  }
+}
+@media (max-width: 992px) {
+  #carousel .shadow {
+    margin-bottom: -12px;
+  }
 }
 #carousel .caption .fancy {
   font-family: SaintAndrewsRegular, serif;

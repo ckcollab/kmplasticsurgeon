@@ -32,9 +32,9 @@
 						</div>
 					</div>
 				</div>
-				
-				<img class="plumeria" src="assets/img/plumeria.png" alt="Plumeria Flower" width="190">
-				<img class="rocks" src="assets/img/rocks.png" alt="Rocks and Flowers" width="175">
+				<img class="plumeria" src="assets/img/plumeria.png" alt="Plumeria Flower">
+				<img class="rocks" src="assets/img/rocks.png" alt="Rocks and Flowers">
+                <img class="shadow" src="assets/img/carousel-shadow.png" alt="Carousel Shadow"/>
 			</div>
 		</div>
 	</div>
