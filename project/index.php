@@ -43,16 +43,21 @@ if(isset($_GET['page'])) {
 	<div class="container">
 		<div class="row header">
 			<div class="col-lg-12">
-				<img class="logo" src="assets/img/logo-full.png" alt="Kai Morimoto MD - Plastic Surgeon">
-				
-				<ul>
-					<li><a href="index.php?page=home">Home</a></li>
-					<li><a href="index.php?page=about_us">About <p>Us</p></a></li>
-					<li><a href="index.php?page=procedures">Procedures</a></li>
-					<li><a href="index.php?page=products">Products</a></li>
-					<li><a href="index.php?page=forms">Forms</a></li>
-					<li><a href="index.php?page=contact_us">Contact <p>Us</p></a></li>
-				</ul>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="index.php?page=home" class="logo">
+                            <img class="full" src="assets/img/logo-full.png" alt="Kai Morimoto MD - Plastic Surgeon">
+                            <img class="emblem" src="assets/img/logo-emblem.png" alt="Kai Morimoto MD - Plastic Surgeon">
+                        </a>
+                        <ul class="top-nav">
+                            <li><a href="index.php?page=about_us">About</a></li>
+                            <li><a href="index.php?page=procedures">Procedures</a></li>
+                            <li><a href="index.php?page=products">Products</a></li>
+                            <li><a href="index.php?page=forms">Forms</a></li>
+                            <li><a href="index.php?page=contact_us">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
 			</div>
 		</div>
 	</div>
@@ -90,12 +95,12 @@ if(isset($_GET['page'])) {
 					<h3>Pages</h3>
 					<ul>
 						<li><a href="#">Home</a></li>
-						<li><a href="#">About <span>Us</span></a></li>
+						<li><a href="#">About</a></li>
 						<li><a href="#">Surgeries</a></li>
 						<li><a href="#">Treatments</a></li>
 						<li><a href="#">Products</a></li>
 						<li><a href="#">Forms</a></li>
-						<li><a href="#">Contact <span>Us</span></a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
 			</div>
