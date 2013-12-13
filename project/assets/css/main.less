@@ -126,16 +126,17 @@ a:hover { text-decoration: none; }
     }
 }
 
+/***************************************************************
+ * Big nav buttons
+ ***************************************************************/
 .picture-nav {
     text-align: center;
     margin: 60px 0;
 
-    //img { margin: 20px; }
-
     .big-button {
-        float: left;
-        width: 20%;
-        min-width: 150px;
+        display: inline-block;
+        margin: 0 10px 20px 10px;
+        width: 150px;
         text-align: center;
         cursor: pointer;
         .user-select(none);
@@ -154,12 +155,11 @@ a:hover { text-decoration: none; }
                 height: 130px;
                 background-color: hsl(30, 25%, 65%);
                 border-radius: 100%;
-                box-shadow: inset 0 1px 2px #BFBFBF, 0 1px #FFFBF7;
+                box-shadow: 0 1px #FFFBF7;
 
                 .normal, .sepia {
                     .transition_properties(margin-left, margin-top;);
                     position: absolute;
-                    //display: none;
                     left: 0;
                     top: 0;
                     bottom: 0;
@@ -179,7 +179,7 @@ a:hover { text-decoration: none; }
                 width: 140px;
                 height: 140px;
                 background-color: hsl(30, 25%, 70%);
-                box-shadow: inset 0 1px #FFF, 0 1px 4px #AAA;
+                box-shadow: inset 0 1px #FFF;
 
                 .normal {
                     opacity: 1;
