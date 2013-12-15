@@ -606,12 +606,22 @@ a:hover {
   padding: 0 10px;
   margin-top: 20px;
 }
+@media (min-width: 768px) {
+  .footer-container .footer-left {
+    text-align: center;
+  }
+}
 .footer-container .footer-middle .facebook-logo {
   width: 55px;
 }
 .footer-container .footer-middle .address-name {
   font-size: 16px;
   padding: 20px 0 0 0;
+}
+@media (min-width: 768px) {
+  .footer-container .footer-middle {
+    text-align: center;
+  }
 }
 .footer-container .footer-right ul {
   padding: 0;

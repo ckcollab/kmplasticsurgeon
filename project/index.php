@@ -71,7 +71,7 @@ if(isset($_GET['page'])) {
 	<div class="footer-container navbar navbar-default navbar-static-bottom">
 		<div class="container">
 			<div class="row">
-				<div class="footer-left col-lg-6">
+				<div class="footer-left col-sm-6">
 					<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
 					<h3>Board Certified Plastic Surgeon</h3>
 					
@@ -80,7 +80,7 @@ if(isset($_GET['page'])) {
 					<a href="http://www.plasticsurgery.org/"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
 					<a href="http://www.hawaii.edu/"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
 		        </div>
-				<div class="footer-middle col-lg-3">
+				<div class="footer-middle col-sm-3">
 					<p><a href="#"><img class="facebook-logo" src="assets/img/facebook-3x.png" alt="Connect with us on Facebook"></a></p>
 					
 					<address>
@@ -91,7 +91,7 @@ if(isset($_GET['page'])) {
 						<a href="tel://1-509-315-4415"><abbr title="Phone">P:</abbr> 509-315-4415</a>
 					</address>
 				</div>
-				<div class="footer-right col-lg-3">
+				<div class="footer-right col-sm-3 hidden-xs">
 					<h3>Pages</h3>
 					<ul>
 						<li><a href="#">Home</a></li>
