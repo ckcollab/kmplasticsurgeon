@@ -47,12 +47,14 @@
             <h3>The Staff</h3>
             <h4>Shelby</h4><br>
             <img src="assets/img/staff/shelby.jpg" alt="Shelby">
+        </div>
+	</div>
 
+    <div class="row">
+        <div class="col-xs-12">
             <h3>Office</h3>
             <iframe class="google_maps_embed" width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?ie=UTF8&amp;q=Medicus+Professional+Center&amp;fb=1&amp;gl=us&amp;hq=medicus+professional+center&amp;hnear=0x549e1f7de3d127a3:0x8b0f4ec46ff3cd48,7720+E+Mission+Ave,+Spokane+Valley,+WA+99212&amp;cid=11283474135506244513&amp;t=m&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?ie=UTF8&amp;q=Medicus+Professional+Center&amp;fb=1&amp;gl=us&amp;hq=medicus+professional+center&amp;hnear=0x549e1f7de3d127a3:0x8b0f4ec46ff3cd48,7720+E+Mission+Ave,+Spokane+Valley,+WA+99212&amp;cid=11283474135506244513&amp;t=m&amp;z=16&amp;iwloc=A&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
             <br>
-
-            <span class="needed">Office Photos</span><br>
 
             <address>
                 Medicus Professional Center<br>
@@ -63,6 +65,5 @@
 
             <span class="needed">I need email address</span><br>
         </div>
-
 	</div>
 </div>
