@@ -50,11 +50,11 @@ if(isset($_GET['page'])) {
                             <img class="emblem" src="assets/img/logo-emblem.png" alt="Kai Morimoto MD - Plastic Surgeon">
                         </a>
                         <ul class="top-nav">
-                            <li><a href="index.php?page=about_us">About</a></li>
-                            <li><a href="index.php?page=procedures">Procedures</a></li>
-                            <li><a href="index.php?page=products">Products</a></li>
-                            <li><a href="index.php?page=forms">Forms</a></li>
-                            <li><a href="index.php?page=contact_us">Contact</a></li>
+                            <li><a href="index.php?page=about_us" <?php if($page == 'about_us') echo 'class="active"'; ?>>About</a></li>
+                            <li><a href="index.php?page=procedures" <?php if($page == 'procedures') echo 'class="active"'; ?>>Procedures</a></li>
+                            <li><a href="index.php?page=products" <?php if($page == 'products') echo 'class="active"'; ?>>Products</a></li>
+                            <li><a href="index.php?page=forms" <?php if($page == 'forms') echo 'class="active"'; ?>>Forms</a></li>
+                            <li><a href="index.php?page=contact_us" <?php if($page == 'contact_us') echo 'class="active"'; ?>>Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -75,10 +75,10 @@ if(isset($_GET['page'])) {
 					<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
 					<h3>Board Certified Plastic Surgeon</h3>
 					
-					<a href="http://www.ama-assn.org/ama"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
-					<a href="http://www.facs.org/"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a>
-					<a href="http://www.plasticsurgery.org/"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
-					<a href="http://www.hawaii.edu/"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
+					<a href="http://www.ama-assn.org/ama" target="new"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
+					<a href="http://www.facs.org/" target="new"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a>
+					<a href="http://www.plasticsurgery.org/" target="new"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
+					<a href="http://www.hawaii.edu/" target="new"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
 		        </div>
 				<div class="footer-middle col-sm-4">
 					<p><a href="#"><img class="facebook-logo" src="assets/img/facebook-3x.png" alt="Connect with us on Facebook"></a></p>
@@ -94,13 +94,12 @@ if(isset($_GET['page'])) {
 				<div class="footer-right col-sm-2 hidden-xs">
 					<h3>Pages</h3>
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Surgeries</a></li>
-						<li><a href="#">Treatments</a></li>
-						<li><a href="#">Products</a></li>
-						<li><a href="#">Forms</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="index.php">Home</a></li>
+                        <li><a href="index.php?page=about_us">About</a></li>
+                        <li><a href="index.php?page=procedures">Procedures</a></li>
+                        <li><a href="index.php?page=products">Products</a></li>
+                        <li><a href="index.php?page=forms">Forms</a></li>
+                        <li><a href="index.php?page=contact_us">Contact</a></li>
 					</ul>
 				</div>
 			</div>

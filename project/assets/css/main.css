@@ -190,6 +190,9 @@ a:hover {
 .header .top-nav li a p:first-letter {
   font-size: 120%;
 }
+.header .top-nav li a.active {
+  border-bottom-color: #504C48;
+}
 /***************************************************************
  * Carousel
  ***************************************************************/
@@ -606,11 +609,6 @@ a:hover {
   padding: 0 10px;
   margin-top: 20px;
 }
-@media (min-width: 768px) {
-  .footer-container .footer-left {
-    text-align: center;
-  }
-}
 .footer-container .footer-middle .facebook-logo {
   width: 55px;
 }
@@ -618,8 +616,9 @@ a:hover {
   font-size: 16px;
   padding: 20px 0 0 0;
 }
-@media (ma-width: 768px) {
+@media (max-width: 768px) {
   .footer-container .footer-middle {
+    padding-top: 30px;
     text-align: center;
   }
 }
