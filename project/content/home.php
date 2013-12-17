@@ -12,7 +12,7 @@
                 <p>Spokane Plastic Surgeon Kai Morimoto M.D., F.A.C.S. focuses on enhancing the lives of her patients. In respecting the unique individuality of each person, she is committed to helping them recognize and achieve their aesthetic goals. By personalizing a treatment plan, she is able to help take these goals a reality and improve the patient's sense of overall well-being.</p>
             </div>
             
-            
+
             <div class="col-sm-6 consultation-form-container">
                 <div class="">
                     <h2>Consultation</h2>
@@ -31,7 +31,6 @@
                         <button class="km-btn" type="submit">SEND</button>
                     </form>
                 </div>
-                
             </div>
         </div>
     </div>

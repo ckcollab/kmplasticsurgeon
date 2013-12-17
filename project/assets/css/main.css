@@ -719,3 +719,9 @@ a:hover {
   color: red;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
