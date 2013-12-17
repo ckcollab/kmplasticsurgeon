@@ -608,13 +608,16 @@ a:hover {
   text-align: center;
 }
 .footer-container .footer-left h3 {
-  text-align: center;
   line-height: 16px;
   margin-top: 20px;
 }
 .footer-container .footer-left img {
-  padding: 0 10px;
   margin-top: 20px;
+}
+@media (max-width: 450px) {
+  .footer-container .footer-left {
+    text-align: center;
+  }
 }
 .footer-container .footer-middle .facebook-logo {
   width: 55px;

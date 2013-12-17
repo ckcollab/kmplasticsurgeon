@@ -72,13 +72,25 @@ if(isset($_GET['page'])) {
 		<div class="container">
 			<div class="row">
 				<div class="footer-left col-sm-6">
-					<h3>Kai Morimoto, M.D., F.A.C.S.</h3>
-					<h3>Board Certified Plastic Surgeon</h3>
-					
-					<a href="http://www.ama-assn.org/ama" target="new"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
-					<a href="http://www.facs.org/" target="new"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a>
-					<a href="http://www.plasticsurgery.org/" target="new"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
-					<a href="http://www.hawaii.edu/" target="new"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
+					<div class="row">
+					    <div class="col-xs-12">
+                            <h3>Kai Morimoto, M.D., F.A.C.S.</h3>
+                            <h3>Board Certified Plastic Surgeon</h3>
+					    </div>
+
+					    <div class="col-xs-6 col-sm-6 col-md-3">
+					        <a href="http://www.ama-assn.org/ama" target="new"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
+					    </div>
+					    <div class="col-xs-6 col-sm-6 col-md-3">
+					        <a href="http://www.facs.org/" target="new"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a>
+					    </div>
+					    <div class="col-xs-6 col-sm-6 col-md-3">
+					        <a href="http://www.plasticsurgery.org/" target="new"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
+					    </div>
+					    <div class="col-xs-6 col-sm-6 col-md-3">
+					        <a href="http://www.hawaii.edu/" target="new"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
+					    </div>
+					</div>
 		        </div>
 				<div class="footer-middle col-sm-4">
 					<p><a href="#"><img class="facebook-logo" src="assets/img/facebook-3x.png" alt="Connect with us on Facebook"></a></p>
