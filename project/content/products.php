@@ -1,6 +1,9 @@
 <div class="products-container container">
     <div class="row">
         <div class="col-xs-12">
+            <h1>Products</h1>
+        </div>
+        <div class="col-xs-12">
             <div class="panel">
                 <div class="panel-body">
                     <p class="product-description">
