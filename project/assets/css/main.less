@@ -65,6 +65,7 @@ a:hover {
 
 .header {
     padding-top: 15px;
+    padding-bottom: 15px;
 
     .logo {
         display: block;
@@ -441,22 +442,22 @@ a:hover {
      * Products
      */
     .products-container {
-        .row {
-            padding: 40px 0;
+        .product-title {
+            margin: 0;
         }
-        h1 {
-            margin-top: 0;
-        }
-        img {
-            width: 212px;
+        .product-image {
+            display: block;
             float: left;
-            margin: 0 20px 20px 0;
+            margin-right: 20px;
+            width: 212px;
+            text-align: center;
 
-            @media (max-width: 768px) {
-                display: block;
-                margin: 0 auto 0 auto;
-                float: none;
+            img {
+                max-width: 100%;
             }
+        }
+        .product-description {
+            margin: 0;
         }
     }
 
