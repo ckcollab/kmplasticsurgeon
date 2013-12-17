@@ -196,10 +196,7 @@ a:hover {
 @media (max-width: 768px) {
   .header .top-nav li a.active {
     background: #A69F95;
-    border-bottom-color: transparent !important;
-  }
-  .header .top-nav li a.active:hover {
-    border-bottom-color: #504C48;
+    border-bottom-color: transparent;
   }
 }
 /***************************************************************
