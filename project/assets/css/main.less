@@ -144,7 +144,14 @@ a:hover {
                     display: inline-block;
                 }
             }
-            a.active { border-bottom-color: #504C48; }
+            a.active {
+                border-bottom-color: #504C48;
+
+                @media (max-width: 768px) {
+                    background: #A69F95;
+                    border-bottom-color: transparent;
+                }
+            }
         }
     }
 }
