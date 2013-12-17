@@ -547,6 +547,13 @@ a:hover {
   float: left;
   margin: 0 20px 20px 0;
 }
+@media (max-width: 768px) {
+  .content-container .products-container img {
+    display: block;
+    margin: 0 auto 0 auto;
+    float: none;
+  }
+}
 .content-container .procedures-container .toc_link {
   display: block;
   font-size: 12px;
