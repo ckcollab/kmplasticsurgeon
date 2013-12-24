@@ -16,18 +16,75 @@
             <div class="col-sm-6 consultation-form-container">
                 <div class="">
                     <h2>Consultation</h2>
+
+                    <?php
+                        $email_to = 'info@kmplasticsurgery.com';
+                        $subject = 'KM CONSULTATION REQUEST :: ';
+
+                        function isValidEmail($email){
+                            return preg_match("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^", $email);
+                        }
+
+                        function printError($error) {
+                            echo '<div class="alert alert-danger">';
+                            echo $error;
+                            echo '</div>';
+                        }
+
+                        function printSuccess($success) {
+                            echo '<div class="alert alert-success">';
+                            echo $success;
+                            echo '</div>';
+                        }
+
+                        if($_SERVER['REQUEST_METHOD'] == 'POST') {
+                            if (!isset($_POST['name']) ||
+                                !isset($_POST['email']) ||
+                                !isset($_POST['message']) ||
+                                !isset($_POST['spam_filter'])) {
+                                printError('<b class="error">All fields are required!</b>');
+                            }else {
+                                if($_POST['spam_filter'] != 4) {
+                                    printError('<b class="error">Invalid spam filter answer, are you a robot?!</b>');
+                                } else {
+                                    if(!isValidEmail($_POST['email'])) {
+                                        printError('<b class="error">Invalid email!</b>');
+                                    } else {
+                                        $headers = 'From: ' . $_POST['email'] . "\r\n" .
+                                            'Reply-To: ' . $_POST['email'] . "\r\n" .
+                                            'X-Mailer: PHP/' . phpversion();
+
+                                        $message = $_POST['message'];
+
+                                        echo "mailing".$message;
+
+                                        mail($email_to, $subject.$_POST['name'], $message, $headers);
+
+                                        printSuccess('Message sent successfully!');
+                                    }
+                                }
+                            }
+                        }
+                    ?>
+
                     <p>Request your consultation today!</p>
-                    <form>
+                    <form method="POST" action=".">
                         <div class="form-group">
-                            <input type="text" name="name" class="form-control" placeholder="name">
+                            <input type="text" name="name" class="form-control" placeholder="name" value="<?php if(isset($_POST['spam_filter'])) echo $_POST['name']; ?>">
                         </div>
                         <div class="form-group">
-                            <input type="text" name="email" class="form-control" placeholder="email">
+                            <input type="text" name="email" class="form-control" placeholder="email" value="<?php if(isset($_POST['spam_filter'])) echo $_POST['email']; ?>">
                         </div>
                         <div class="form-group">
-                            <textarea name="message" class="form-control" rows="3" placeholder="message"></textarea>
+                            <textarea name="message" class="form-control" rows="3" placeholder="message"><?php if(isset($_POST['spam_filter'])) echo $_POST['message']; ?></textarea>
                         </div>
-                        
+
+                        <p>Spam filter -- Answer the question: what does 3 + 1 equal?</p>
+
+                        <div class="form-group">
+                            <input type="text" name="spam_filter" class="form-control" placeholder="spam filter" value="<?php if(isset($_POST['spam_filter'])) echo $_POST['spam_filter']; ?>">
+                        </div>
+
                         <button class="km-btn" type="submit">SEND</button>
                     </form>
                 </div>

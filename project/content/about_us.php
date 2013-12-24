@@ -43,10 +43,13 @@
             </ul>
         </div>
 
-        <div class="col-lg-6">
+        <div class="staff col-lg-6">
             <h3>The Staff</h3>
             <h4>Shelby</h4><br>
             <img src="assets/img/staff/shelby.jpg" alt="Shelby">
+            <p>Born and raised in Spokane, Shelby attended Whitworth University, a private liberal arts university, graduating Magna Cum Laude with a Bachelor of Arts degree in Sociology and Psychology in 2013. In addition to being a member of Psi Chi, The International Honor Society in Psychology, Shelby was inducted into Whitworth University's Laureate Society for her academic achievements.</p>
+
+            <p>In her free time, Shelby enjoys running, volunteering, traveling, being at the lake and spending time with her two beloved dogs.</p>
         </div>
 	</div>
 
@@ -63,7 +66,7 @@
                 <a href="tel://1-509-315-4415"><abbr title="Phone">P:</abbr> 509-315-4415</a>
             </address>
 
-            <span class="needed">I need email address</span><br>
+            <a href="mailto:info@kmplasticsurgery.com">info@kmplasticsurgery.com</a>
         </div>
 	</div>
 </div>

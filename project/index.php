@@ -79,16 +79,16 @@ if(isset($_GET['page'])) {
 					    </div>
 
 					    <div class="col-xs-6 col-sm-6 col-md-3">
-					        <a href="http://www.ama-assn.org/ama" target="new"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
-					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-3">
-					        <a href="http://www.facs.org/" target="new"><img src="assets/img/American College of Surgeons.png" alt="American College of Surgeons" height="64"></a>
-					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-3">
 					        <a href="http://www.plasticsurgery.org/" target="new"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
 					    </div>
 					    <div class="col-xs-6 col-sm-6 col-md-3">
-					        <a href="http://www.hawaii.edu/" target="new"><img src="assets/img/Uni Hawaii Logo.png" alt="University of Hawaii" width="64"></a>
+					        <a href="http://www.abplsurg.org/" target="new"><img src="assets/img/ABPSurgery.jpg" alt="American Board of Plastic Surgery" height="64"></a>
+					    </div>
+					    <div class="col-xs-6 col-sm-6 col-md-3">
+					        <a href="http://www.hawaii.edu/" target="new"><img src="assets/img/UH Logo.png" alt="University of Hawaii" height="64"></a>
+					    </div>
+					    <div class="col-xs-6 col-sm-6 col-md-3">
+					        <a href="http://www.ama-assn.org/ama" target="new"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
 					    </div>
 					</div>
 		        </div>

@@ -12,7 +12,8 @@
 				<a href="tel://1-509-315-4415"><abbr title="Phone">P:</abbr> 509-315-4415</a>
 			</address>
 
-			<span class="needed">I need email address</span><br>
+            <h1>Email</h1>
+			<a href="mailto:info@kmplasticsurgery.com">info@kmplasticsurgery.com</a>
 		</div>
 	</div>
 </div>
