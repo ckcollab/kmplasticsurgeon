@@ -78,16 +78,16 @@ if(isset($_GET['page'])) {
                             <h3>Board Certified Plastic Surgeon</h3>
 					    </div>
 
-					    <div class="col-xs-6 col-sm-6 col-md-4">
+					    <div class="col-xs-12 col-sm-6 col-md-6">
 					        <a href="http://www.plasticsurgery.org/" target="new"><img src="assets/img/accreditations/ASPSlogo.gif" alt="American Society of Plastic Surgeons"></a>
 					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-4">
+					    <div class="col-xs-12 col-sm-6 col-md-6">
 					        <a href="http://www.abplsurg.org/" target="new"><img src="assets/img/accreditations/ABPSurgery.jpg" alt="American Board of Plastic Surgery"></a>
 					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-4">
+					    <div class="col-xs-12 col-sm-6 col-md-6">
 					        <a href="http://www.hawaii.edu/" target="new"><img src="assets/img/accreditations/UH Logo.png" alt="University of Hawaii"></a>
 					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-12">
+					    <div class="col-xs-12 col-sm-6 col-md-6">
 					        <a href="http://www.ama-assn.org/ama" target="new"><img id="ama_logo" src="assets/img/accreditations/Amer Med Assoc Logo.png" alt="American Medical Association"></a>
 					    </div>
 					</div>

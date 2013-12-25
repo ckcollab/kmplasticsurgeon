@@ -622,21 +622,16 @@ a:hover {
 }
 .footer-container .footer-left img {
   margin-top: 20px;
-  height: 100px;
-}
-.footer-container .footer-left div:last-child {
-  text-align: center;
+  width: 180px;
 }
 @media (max-width: 768px) {
-  .footer-container .footer-left #ama_logo {
-    width: 100px;
+  .footer-container .footer-left img {
+    width: 100%;
     height: auto;
   }
 }
-@media (max-width: 450px) {
-  .footer-container .footer-left {
-    text-align: center;
-  }
+.footer-container .footer-left div:last-child {
+  text-align: center;
 }
 .footer-container .footer-middle .facebook-logo {
   width: 55px;
