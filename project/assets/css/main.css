@@ -545,7 +545,7 @@ a:hover {
 }
 .content-container .about-us-container .staff img {
   float: left;
-  margin: 0 20px 20px 0;
+  margin: 0 20px 0 0;
 }
 .content-container .products-container .product-title {
   margin: 0;
@@ -622,6 +622,16 @@ a:hover {
 }
 .footer-container .footer-left img {
   margin-top: 20px;
+  height: 100px;
+}
+.footer-container .footer-left div:last-child {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .footer-container .footer-left #ama_logo {
+    width: 100px;
+    height: auto;
+  }
 }
 @media (max-width: 450px) {
   .footer-container .footer-left {

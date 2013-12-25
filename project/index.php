@@ -78,17 +78,17 @@ if(isset($_GET['page'])) {
                             <h3>Board Certified Plastic Surgeon</h3>
 					    </div>
 
-					    <div class="col-xs-6 col-sm-6 col-md-3">
-					        <a href="http://www.plasticsurgery.org/" target="new"><img src="assets/img/ASPSlogo.gif" alt="American Society of Plastic Surgeons" height="64"></a>
+					    <div class="col-xs-6 col-sm-6 col-md-4">
+					        <a href="http://www.plasticsurgery.org/" target="new"><img src="assets/img/accreditations/ASPSlogo.gif" alt="American Society of Plastic Surgeons"></a>
 					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-3">
-					        <a href="http://www.abplsurg.org/" target="new"><img src="assets/img/ABPSurgery.jpg" alt="American Board of Plastic Surgery" height="64"></a>
+					    <div class="col-xs-6 col-sm-6 col-md-4">
+					        <a href="http://www.abplsurg.org/" target="new"><img src="assets/img/accreditations/ABPSurgery.jpg" alt="American Board of Plastic Surgery"></a>
 					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-3">
-					        <a href="http://www.hawaii.edu/" target="new"><img src="assets/img/UH Logo.png" alt="University of Hawaii" height="64"></a>
+					    <div class="col-xs-6 col-sm-6 col-md-4">
+					        <a href="http://www.hawaii.edu/" target="new"><img src="assets/img/accreditations/UH Logo.png" alt="University of Hawaii"></a>
 					    </div>
-					    <div class="col-xs-6 col-sm-6 col-md-3">
-					        <a href="http://www.ama-assn.org/ama" target="new"><img src="assets/img/Amer Med Assoc Logo.png" alt="American Medical Association" height="64"></a>
+					    <div class="col-xs-6 col-sm-6 col-md-12">
+					        <a href="http://www.ama-assn.org/ama" target="new"><img id="ama_logo" src="assets/img/accreditations/Amer Med Assoc Logo.png" alt="American Medical Association"></a>
 					    </div>
 					</div>
 		        </div>
